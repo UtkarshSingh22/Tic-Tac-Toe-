@@ -1,0 +1,41 @@
+body{
+    margin: 0%;    
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr 2fr 1fr / 1fr 2fr 1fr;
+}
+.start{
+    grid-column: 2/3;
+    margin: 15%;
+    font-size: 40px;
+    width: 20rem;
+    justify-self: center;
+}
+.p1Turn, .p2Turn{
+    font-size: 30px;
+    place-self: center;
+}
+.p1Turn{
+    grid-area: 2/1/3/2;
+}
+.p2Turn{
+    grid-area: 2/3/3/4;
+}
+.board{
+    grid-area: 2/2/3/3;
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+    height: 50vh;
+    width: 50vh;
+    justify-self: center;
+}
+.box{
+    border: 2px solid black;
+}
+.winner{
+    grid-area: 3/2/4/3;
+    place-self: center;
+    font-size: 30px;
+}
