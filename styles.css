@@ -1,5 +1,7 @@
 body{
-    margin: 0%;    
+    margin: 0%;  
+    background-image: linear-gradient(to right, rgb(70, 11, 104),rgb(255, 174, 214));
+    color: white;
 }
 .container{
     height: 100vh;
@@ -32,7 +34,7 @@ body{
     justify-self: center;
 }
 .box{
-    border: 2px solid black;
+    border: 5px solid rgb(7, 7, 7);
 }
 .winner{
     grid-area: 3/2/4/3;
