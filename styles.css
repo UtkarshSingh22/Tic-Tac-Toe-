@@ -35,6 +35,10 @@ body{
 }
 .box{
     border: 5px solid rgb(7, 7, 7);
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .winner{
     grid-area: 3/2/4/3;
